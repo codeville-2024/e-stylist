@@ -1,0 +1,117 @@
+#parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  width: 20px;
+  column-gap: 500px;
+}
+#flag {
+  display: flex;
+  justify-content: center;
+}
+
+#options {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+}
+
+#woman {
+  display: flex;
+  justify-content: center;
+  /* border: 50px solid pink; */
+  height: 700px;
+}
+
+#match {
+  display: flex;
+  column-gap: 16px;
+  border-left: 1px solid black;
+  padding-left: 16px;
+}
+#h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+#word {
+  /* display: flex; */
+  text-align: center;
+  justify-content: space-between;
+}
+#two {
+  background-color: #d9d9d9;
+  padding: 10px;
+}
+#shop {
+  background-color: black;
+  color: white;
+}
+#place {
+  margin-left: 200px;
+  display: flex;
+}
+
+#designers {
+  display: flex;
+  margin-bottom: 69px;
+}
+
+#purple {
+  width: 430px;
+  height: 497px;
+  top: 1753px;
+  left: 80px;
+}
+
+#bag {
+  width: 430px;
+  height: 497px;
+  top: 1753px;
+  left: 730px;
+}
+
+#div {
+  column-gap: 20px;
+}
+
+#dbags {
+  display: flex;
+  justify-content: center;
+  column-gap: 302px;
+  margin-bottom: 100px;
+}
+
+#vid {
+  display: flex;
+  justify-content: center;
+}
+
+#ic {
+  display: flex;
+  justify-content: center;
+}
+
+#min {
+  margin-bottom: 363px;
+}
+
+#sect {
+  margin-bottom: 393px;
+}
+
+#dust {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dust1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
