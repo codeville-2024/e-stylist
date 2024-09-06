@@ -125,31 +125,144 @@
 /* Codes for option.html */
 
 #mennwoman {
-  margin-top: 200px;
+  margin-left: 100px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-#womanmen {
+/* #womanmen {
   display: flex;
   column-gap: 16px;
-}
+} */
 
-#womanmen > div > img {
+/* #womanmen > div > img {
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 #mennwoman > div {
   transform: scale(1.1);
-}
+} */
 
-#mennwoman > div:hover {
+/* #mennwoman > div:hover {
   opacity: 1;
   -webkit-box-reflect: below 0px
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); */
+/* } */
+
+#bdy {
+  background-color: salmon;
 }
 
-p {
+/* Codes for the gender page */
+
+#choose {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 70%;
   opacity: 0;
   transition: 0.5s ease;
+  background-color: azure;
+}
+
+.container:hover > .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+/* women's */
+.containe {
+  position: relative;
+  width: 50%;
+}
+
+.imag {
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+
+.overla {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 70%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: azure;
+}
+
+.containe:hover > .overla {
+  opacity: 1;
+}
+
+.tex {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#mentype {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
+}
+
+#textum {
+  display: flex;
+  justify-content: space-around;
+}
+
+#womentype {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
+}
+
+#textuw {
+  display: flex;
+  justify-content: space-around;
 }
