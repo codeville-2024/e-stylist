@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #parent {
   display: flex;
   align-items: center;
@@ -18,7 +24,7 @@
   justify-content: space-around;
   max-width: 1024px;
   width: 100%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 #woman {
@@ -200,9 +206,6 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-
-
-
 /* women's */
 .containe {
   position: relative;
@@ -265,4 +268,71 @@
 #textuw {
   display: flex;
   justify-content: space-around;
+}
+
+footer {
+  background-color: #ede9e9;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.footer-container ul {
+  display: block;
+  margin-top: 30px;
+  list-style: none;
+  list-style-position: outside;
+  padding: 0;
+}
+
+.footer-container li {
+  margin: 10px 0;
+  color: #252525;
+  font-size: 14px;
+}
+
+.payments {
+  display: block;
+  margin-top: 30px;
+}
+
+.payments h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.payment-platforms {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+#occasions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  min-height: 100svh;
+  background-color: bisque;
+}
+#occasions a {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px;
+  background-color: thistle;
+  color: #222;
+  border-radius: 20px;
 }
